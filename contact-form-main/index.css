@@ -77,7 +77,6 @@ label{
 .row1 {
   display: flex;
   text-align: center;
-  
      padding:20 px;
       width: 220px;
       border: 1px solid #ccc;
@@ -86,9 +85,18 @@ label{
 }
 #q1,#q2{
     padding: 25px;
-
     width: 55px;
-    display: flex;
-    justify-content: space-evenly;
     height: 15px;
+}
+.m1{
+     height: 90px;
+     padding:20 px;
+      width: 480px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+}
+.large{
+    display:flex;
+    gap:2px;
+    flex-direction: column;
 }
