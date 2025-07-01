@@ -13,7 +13,7 @@ body{
     justify-content: center;
 }
 .table{
-    width: 35%;
+    width: 32%;
     background-color:  hsl(0, 0%, 100%);
     padding: 20px;
     border-radius: 16px;
@@ -21,7 +21,9 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding-left: 30px;
     
+
 }
 .form-row{
     display:flex;
@@ -76,7 +78,7 @@ label{
 .row1 {
   display: flex;
   text-align: center;
-     padding:20 px;
+     padding: 9px;
       width: 220px;
       border: 1px solid #ccc;
       border-radius: 8px;
@@ -90,7 +92,7 @@ label{
 .m1{
      height: 90px;
      padding:20 px;
-      width: 480px;
+      width: 485px;
       border: 1px solid #ccc;
       border-radius: 8px;
 }
@@ -99,11 +101,12 @@ label{
     gap:2px;
     flex-direction: column;
 }
-.last{
+.list{
     display:flex;
     gap:1px;
-    align-items: flex-start;
+    align-items:flex-start;
     justify-content: flex-start;
+    
 }
 #l1{
     padding: 25px;
