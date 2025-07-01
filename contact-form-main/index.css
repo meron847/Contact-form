@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:hsl(186, 15%, 59%) ;
+    font-family: 'Karla', sans-serif;
+    font-size: 11px; 
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+}
+.table{
+    width: 35%;
+    background-color:  hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 16px;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.form-row{
+    display:flex;
+    
+    width:500px;
+    align-items: flex-start;
+    justify-content:space-evenly;
+     
+}
+.box{
+    width: 250px;
+    display: flex;
+    border-color:  hsl(187, 24%, 22%);
+    flex-direction: column;
+    
+}
+label{
+    font-weight: 250;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+  input {
+      padding: 9px;
+      width: 220px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      display:flex;
+    
+    }
+    .box-1{
+     width: 400px;
+    
+    border-color:  hsl(187, 24%, 22%);
+    
+    }
+.email{
+      padding: 9px;
+      width: 470px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+}
+.box-2{
+    display: flex;
+    gap:4px;
+    flex-direction: column;
+
+}
+.row{
+    display: flex;
+    gap:14px;
+}
+
+.row1 {
+  display: flex;
+  text-align: center;
+  
+     padding:20 px;
+      width: 220px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      
+}
+#q1,#q2{
+    padding: 25px;
+
+    width: 55px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 15px;
+}
